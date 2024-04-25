@@ -5,7 +5,7 @@ import section5Styles from './section5.module.scss';
 
 function renderSection5(props) {
   return (
-    <section className={section5Styles.section5}>
+    <section id="apply" className={section5Styles.section5}>
       <div className={section5Styles.flex_col}>
         <div className={section5Styles.flex_col1}>
           <h1 className={section5Styles.hero_title}>Apply to join</h1>
@@ -24,7 +24,7 @@ function renderSection5(props) {
           </h3>
         </div>
 
-        <div className={section5Styles.flex_col2}>
+        <div id="contact" className={section5Styles.flex_col2}>
           <h1 className={section5Styles.hero_title1}>Get in touch</h1>
           <h3 className={section5Styles.subtitle}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio

@@ -5,7 +5,7 @@ import section3Styles from './section3.module.scss';
 
 function renderSection3(props) {
   return (
-    <section className={section3Styles.section3}>
+    <section id="members" className={section3Styles.section3}>
       <div className={section3Styles.flex_col}>
         <h1 className={section3Styles.hero_title}>Members</h1>
 

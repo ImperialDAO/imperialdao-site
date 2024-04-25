@@ -5,9 +5,56 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 790px;
+  height: 100vh;
   min-height: 790px;
 }
+.subtitle {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+  padding: 5px 0; // Padding for better hover area
+  color: #ffffff; // Ensure text color is set for consistency
+
+  // Using before for a gradient background animation
+  &::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #ffc107, #f44336, #9c27b0);
+    transform: scaleX(0);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent; // Hide the solid line when not hovering
+    transition: background-color 0.7s ease;
+  }
+
+  &:hover::before {
+    transform: scaleX(1); // Scale to full width when hovered
+  }
+
+  &:hover::after {
+    background-color: #000; // Optional: Reinstate if a solid underline is also desired on hover
+  }
+
+  &:hover {
+    color: #ad9c04; // Enhanced text color change on hover
+  }
+}
+
+
+
 .flex_col {
   position: relative;
   display: flex;
@@ -56,30 +103,53 @@
   color: rgb(255, 255, 255);
 }
 .image1 {
-  width: 83%;
+  width: 100%;
+  transform: translateY(-70px);
 }
+
 .box {
-  position: absolute;
-  top: 167px;
-  left: 1101px;
+  position: relative; // Change positioning from absolute to relative
+  margin-left: auto; // Aligns the box to the right side of its container
   display: flex;
   align-items: center;
+  margin-top:30px;
+  z-index: 2;
   gap: 0px 3px;
-  width: 296px;
+  width: 350px;
   height: 70px;
   background-color: rgb(32, 32, 51);
-  padding: 0px 6px 0px 6px;
+  padding: 5px 15px;
   box-shadow: 0px 1px 9.300000190734863px 5px rgba(0, 0, 0, 0.247);
-  overflow: hidden;
+  overflow: visible;
+  transition: all 0.3s ease; // Smooth transition for all changes
+  &:hover {
+    background-color: #505080; // Darker shade on hover for contrast
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); // Deeper shadow for a "lifting" effect
+  }
 }
+
 .image2 {
+  z-index: 1;
   width: 62px;
   height: 70px;
+  transition: transform 0.3s ease; // Smooth transform transition
+
+  .box:hover & { // When the parent box is hovered
+    transform: scale(2); // Slightly enlarge the image
+  }
 }
+
 .highlight {
   margin: 24px 0px 23px;
-  width: 219px;
+  width: 250px;
   height: 23px;
-  font: 400 18px/1.27 "Baskervville", Helvetica, Arial, serif;
+  font: 700 18px/1.27 "Baskervville", Helvetica, Arial, serif;
   color: rgb(173, 149, 102);
+  transition: color 0.3s ease; // Smooth color transition
+  transition: transform 0.3s ease; // Smooth transform transition
+
+  .box:hover & { // When the parent box is hovered
+    color: #ffd700; // Gold color for high visibility and contrast
+    transform: translateX(30px);
+  }
 }

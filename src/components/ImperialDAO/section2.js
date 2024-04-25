@@ -5,7 +5,7 @@ import section2Styles from './section2.module.scss';
 
 function renderSection2(props) {
   return (
-    <section className={section2Styles.section2}>
+    <section id="aboutUs" className={section2Styles.section2}>
       <div className={section2Styles.section21}>
         <div className={section2Styles.flex_col}>
           <div className={section2Styles.flex_col1}>
