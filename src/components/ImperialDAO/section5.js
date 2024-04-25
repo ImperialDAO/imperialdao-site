@@ -43,6 +43,7 @@ function renderSection5(props) {
       </div>
 
       <div className={section5Styles.content_box3}>
+      <img src={'/assets/id-border-horizontal.png'}/>
         <div className={section5Styles.flex_row}>
           <img className={section5Styles.image5} src={'/assets/white_imperial_dao_crest.png'} alt="alt text" />
 
@@ -56,8 +57,11 @@ function renderSection5(props) {
             <img className={section5Styles.image4} src={'/assets/navy_blue_id_seal.png'} alt="alt text" />
           </div>
         </div>
+        <img src={'/assets/id-border-horizontal-bottom.png'}/>
       </div>
+      
     </section>
+    
   );
 }
 

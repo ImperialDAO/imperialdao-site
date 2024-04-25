@@ -6,7 +6,9 @@ import section4Styles from './section4.module.scss';
 function renderSection4(props) {
   return (
     <section id="partners" className={section4Styles.section4}>
+      
       <div className={section4Styles.section41}>
+      <img src={'/assets/id-border-horizontal.png'}/>
         <div className={section4Styles.flex_col}>
           <h1 className={section4Styles.hero_title}>Partners</h1>
 
@@ -64,7 +66,9 @@ function renderSection4(props) {
             </div>
           </div>
         </div>
+        <img src={'/assets/id-border-horizontal-bottom.png'}/>
       </div>
+      
     </section>
   );
 }
