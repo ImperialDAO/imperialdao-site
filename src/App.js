@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ImperialDAO from 'components/ImperialDAO';
 import AOS from 'aos';
 import Sticky from 'sticky-js';
@@ -22,7 +22,7 @@ class App extends Component {
   componentDidUpdate() {
     AOS.refresh();
     if (this.stickey) {
-      this.stickey.destory();
+      this.stickey.destroy();
       this.stickey = new Sticky('.sticky-effect');
     }
   }
@@ -31,14 +31,7 @@ class App extends Component {
     return (
       <Router hashType="noslash" basename={process.env.BASE_PATH}>
         <Switch>
-          <Route exact path="/">
-            <div>
-              pxCode Screen List: <br />
-              <Link to="/ImperialDAO">ImperialDAO</Link>
-            </div>
-          </Route>
-
-          <Route exact path="/ImperialDAO" component={ImperialDAO} />
+          <Route exact path="/" component={ImperialDAO} />
         </Switch>
       </Router>
     );
