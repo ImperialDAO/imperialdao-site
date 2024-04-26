@@ -71,6 +71,8 @@
   @include xs {
     flex-direction: column;
     gap: 8px 10px;
+    margin-left:5%;
+    
   }
 }
 
@@ -105,7 +107,7 @@
 .big_title1 {
   display: flex;
   justify-content: center;
-  font: 400 20px/1.29 "Baskervville", Helvetica, Arial, serif;
+  font: 400 21px/1.29 "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
   text-align: center;
 }

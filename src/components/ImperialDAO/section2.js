@@ -37,19 +37,19 @@ function RenderSection2(props) {
 
   const verticals = [
     {
-      title: "Vertical 1",
+      title: "Angel Syndicate",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a nisi. In at mi dictum, aliquam nisl non, vehicula ligula."
     },
     {
-      title: "Vertical 2",
+      title: "Developer Experience",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a nisi. In at mi dictum, aliquam nisl non, vehicula ligula."
     },
     {
-      title: "Vertical 3",
+      title: "Start-up Launchpad",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a nisi. In at mi dictum, aliquam nisl non, vehicula ligula."
     },
     {
-      title: "Vertical 4",
+      title: "Knowledge-Sharing and Networking",
       content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a nisi. In at mi dictum, aliquam nisl non, vehicula ligula."
     }
   ];
