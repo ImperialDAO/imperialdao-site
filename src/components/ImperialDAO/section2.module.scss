@@ -20,8 +20,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 55px 0px;
-  margin: 20px auto 80px;
+  gap: 55px 10px;
+  margin: 70px auto 220px;
   width: 94.51%;
 }
 
@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 43px 0px;
+  gap: 43px 10px;
   width: 96.11%;
 }
 .hero_title {
@@ -43,8 +43,9 @@
 .flex_col2 {
   display: flex;
   flex-direction: column;
+  
   align-items: center;
-  gap: 30px 0px;
+  gap: 30px 40px;
   width: 100%;
 }
 .big_title {
@@ -53,12 +54,14 @@
   font: 400 35px/1.28 "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
   text-align: center;
+  margin-top:50px;
+  margin-bottom:50px;
 }
 .flex_row {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0px 0px;
+  gap: 10px 20px;
   width: 100%;
   @include lg {
     flex-direction: column;
@@ -84,7 +87,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  gap: 30px 0px;
+  gap: 30px 10px;
   margin: 31px 36px 30px 32px;
 }
 .big_title1 {
@@ -116,17 +119,21 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
+  padding-bottom: 80px;
   @include sm{
     flex-direction: column;
     align-items:left;
     justify-content: left;
+    padding-bottom: 20px;
+    margin-top: 10px;
   }
 }
 
 .leftColumn {
-  width: 40%;
+  width: 50%;
   padding: 40px;
   box-sizing: border-box;
+  font-size:26px;
   margin-left:10%;
 
   @include sm{
@@ -142,7 +149,9 @@
   align-items: center;
   justify-content: center;
   @include sm{
-    width: 100%
+    width: 100%;
+    height:400px;
+    
   }
 }
 
@@ -154,34 +163,68 @@
   border: none;
   color: white;
   font-size: 120px;
+  top:150px;
   cursor: pointer;
   @include sm{
     font-size:90px;
   }
 }
 
+.imgcontainer{
+  height: 500px;
+  @include md{
+    height: 100%;
+    width:100%;
+    margin-left: 0;
+    float:left;
+    margin-right:0;
+    align-items: center;
+    position:relative;
+  }
+}
+
 .arrowLeft {
   left: 100px;
-  top:90px;
+  
   @include sm{
     left: 20px;
   }
 }
 
 .arrowRight {
-  top:90px;
+  
   right: 100px;
   @include sm{
     right: 20px;
   }
 }
 
-.IBGPhoto{
-  width: 80%;
-  @include sm{
-    width: 100%;
+
+.IBGPhoto {
+  height: 100%;
+  
+  transition: transform 1s ease-in-out;
+  @include sm {
+    width: 90%;
+    height:auto;
+    margin-left:5%;
   }
 }
+
+// React on state change to slide in from the right or left
+.image-enter {
+  transform: translateX(100%);
+}
+.image-enter-active {
+  transform: translateX(0);
+}
+.image-exit {
+  transform: translateX(0);
+}
+.image-exit-active {
+  transform: translateX(-100%);
+}
+
 
 
 .content_box {

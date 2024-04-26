@@ -4,7 +4,31 @@ import cn from 'classnames';
 import section2Styles from './section2.module.scss';
 
 function RenderSection2(props) {
-  // State to manage which vertical is expanded
+  
+  const [currentImage, setCurrentImage] = useState(0);
+  const slideshowImages = [
+    '/assets/IBG/5.png',
+    '/assets/IBG/10.png',
+    '/assets/IBG/11.png',
+    '/assets/IBG/3.png',
+    '/assets/IBG/7.png',
+    '/assets/IBG/9.png',
+    '/assets/IBG/13.png',
+    '/assets/IBG/8.png',
+    '/assets/IBG/6.png',
+    '/assets/IBG/1.png',
+    '/assets/IBG/2.png',
+    '/assets/IBG/12.png',
+  ];
+  const goToNextImage = () => {
+    setCurrentImage((prevIndex) => (prevIndex + 1) % slideshowImages.length);
+  };
+  
+  const goToPrevImage = () => {
+    setCurrentImage((prevIndex) => (prevIndex - 1 + slideshowImages.length) % slideshowImages.length); 
+  };
+  
+
   const [expandedVertical, setExpandedVertical] = useState(null);
 
   const toggleVertical = (index) => {
@@ -77,14 +101,18 @@ function RenderSection2(props) {
           </p>
         </div>
         <div className={section2Styles.rightColumn}>
-          <img className={section2Styles.IBGPhoto} src={'/assets/imperial_dao_crest_motif.png'} alt="Blockchain Event" />
-          <button className={section2Styles.arrowLeft}>‹</button>
-          <button className={section2Styles.arrowRight}>›</button>
+          <div className={section2Styles.imgcontainer}>
+        <img className={section2Styles.IBGPhoto} src={slideshowImages[currentImage]} alt="Blockchain Event" />
+
+        <button className={section2Styles.arrowLeft} onClick={goToPrevImage}>‹</button>
+        <button className={section2Styles.arrowRight} onClick={goToNextImage}>›</button>
+        </div>
         </div>
       </div>
+      
       <img className={section2Styles.bottomBorder} src={'/assets/id-border-horizontal-bottom.png'}/>
-
       </div>
+      
     </section>
   );
 }
