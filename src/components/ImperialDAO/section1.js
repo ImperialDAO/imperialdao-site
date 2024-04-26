@@ -16,7 +16,7 @@ function RenderSection1(props) {
   };
 
   const navigateToMint = () => {
-    history.push('/signet-mint');
+    history.push('/'); //Change to /signet-mint when mint page is ready
     setIsMenuOpen(false);
   };
 
