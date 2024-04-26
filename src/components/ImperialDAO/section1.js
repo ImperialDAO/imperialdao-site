@@ -26,11 +26,13 @@ function RenderSection1(props) {
 
   return (
     <section className={section1Styles.section1}>
-      <img className={section1Styles.bottomBorder} src={'/assets/id-border-horizontal.png'} alt="Decorative Border"/>
+      <img className={section1Styles.bottomBorder}  src={'/assets/id-border-horizontal.png'} alt="Decorative Border"/>
       <div className={section1Styles.flex_col}>
         <div className={section1Styles.wrapper}>
+          <div className={section1Styles.mobileNavBar} >
           <div className={section1Styles.menuIcon} onClick={toggleMenu}>
             &#9776; {/* Hamburger Icon */}
+          </div>
           </div>
           <div className={cn(section1Styles.navbar, { [section1Styles.open]: isMenuOpen })}>
             <h3 onClick={() => handleScroll('aboutUs')} className={section1Styles.subtitle}>About Us</h3>

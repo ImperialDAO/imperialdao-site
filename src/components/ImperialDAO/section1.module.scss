@@ -5,7 +5,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 95vh;
+  height: 99vh;
   min-height: 790px;
 
   @include sm{
@@ -15,19 +15,39 @@
 
 .bottomBorder{
   height:30px;
-  margin-bottom:10px;
+  z-index:3;
+  
 }
 
 .menuIcon {
   display: none;
   cursor: pointer;
   font-size: 30px;
+  float:left;
   color: white;
+  margin-top:40px;
+  z-index:5;
+  @include sm{
+    display:block;
+    
+  }
   
 
-  @include sm { 
-    display: block;
-    float:right;
+}
+
+.mobileNavBar{
+  display:none;
+  
+  background-color:#212529;
+  @include sm{
+    display:block;
+    width:100%;
+    z-index:1;
+    height:100px;
+    padding-left:6%;
+    position:fixed;
+    top:0px;
+    margin-left:0;
   }
 }
 
@@ -40,10 +60,11 @@
   @include sm {
     display: none;
     flex-direction: column;
+    position:fixed;
     z-index:2;
     width: 100%;
-    position: absolute;
-    top: 60px;
+    
+    top: 100px;
     left: 0;
     gap: 60px;
     background-color: rgba(0, 0, 0, 0.9); 
@@ -133,6 +154,10 @@
   width: 100%;
   padding: 0px 65px 0px 65px;
   overflow: hidden;
+
+  @include sm{
+    padding:0;
+  }
 }
 .subtitle2 {
   width: 88px;
@@ -165,10 +190,12 @@
   color: rgb(255, 255, 255);
 }
 .image1 {
-  width: 100%;
+  width: 60%;
   transform: translateY(-70px);
+  margin-bottom:80px;
   @include sm{
-    margin-top:10%;
+    margin-top:20%;
+    z-index:0;
   } 
 
  
@@ -195,8 +222,15 @@
   }
 
   @include sm{
-    margin-left:0;
-    font-size: 14px;
+    position:fixed;
+    right:15px;
+    
+    width: 245px;
+    height:50px;
+    top:10px;
+    font-size: 12px;
+    padding: 1px;
+    
   }
 }
 
@@ -205,10 +239,19 @@
   width: 62px;
   height: 70px;
   transition: transform 0.3s ease; 
-
   .box:hover & { 
     transform: scale(1.3);
   }
+
+  @include sm{
+    width:50px;
+    height:auto;
+    .box:hover & { 
+      transform: scale(1);
+    }
+  }
+
+  
 }
 
 .highlight {
@@ -219,11 +262,21 @@
   color: rgb(173, 149, 102);
   transition: color 0.3s ease; // Smooth color transition
   transition: transform 0.3s ease; // Smooth transform transition
-
   .box:hover & { // When the parent box is hovered
     color: #ffd700; // Gold color for high visibility and contrast
     transform: translateX(20px);
   }
+
+  @include sm{
+    font-size:13px;
+
+    .box:hover & { // When the parent box is hovered
+      color: #ffd700; // Gold color for high visibility and contrast
+      transform: translateX(0px);
+    }
+  }
+
+  
 }
 
 .vertBorder {

@@ -131,10 +131,10 @@
 
 .leftColumn {
   width: 50%;
-  padding: 40px;
+  padding: 20px;
   box-sizing: border-box;
   font-size:26px;
-  margin-left:10%;
+  margin-left:3%;
 
   @include sm{
     margin-left: 0;
@@ -150,7 +150,7 @@
   justify-content: center;
   @include sm{
     width: 100%;
-    height:400px;
+    
     
   }
 }
@@ -172,8 +172,8 @@
 }
 
 .imgcontainer{
-  height: 500px;
-  @include md{
+  height: 340px;
+  @include sm{
     height: 100%;
     width:100%;
     margin-left: 0;
