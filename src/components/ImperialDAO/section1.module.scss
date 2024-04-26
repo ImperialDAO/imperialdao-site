@@ -194,6 +194,7 @@
   transform: translateY(-70px);
   margin-bottom:80px;
   @include sm{
+    width: 100%;
     margin-top:20%;
     z-index:0;
   } 
@@ -274,6 +275,10 @@
       color: #ffd700; // Gold color for high visibility and contrast
       transform: translateX(0px);
     }
+  }
+
+  @include xs{
+    font-size:11px;
   }
 
   
