@@ -37,7 +37,7 @@
   color: rgb(255, 255, 255);
 }
 .subtitle {
-  font: 400 12px/1.27 "Baskervville", Helvetica, Arial, serif;
+  font: 400 16px/1.27 "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
 }
 .flex_col2 {
@@ -300,10 +300,10 @@
 .subtitle1 {
   display: flex;
   justify-content: center;
-  font: 400 16px/1.27 "Baskervville", Helvetica, Arial, serif;
+  font: 400 19px/1.27 "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
   text-align: left;
-  font-size: 10px;
+  font-size: 14px;
   color: white;
   
   padding: 5px;
@@ -311,7 +311,7 @@
   @include sm {
     display: block;
     padding: 0px;
-    font-size:10px;
+    font-size:13px;
   }
 
   @include xs{

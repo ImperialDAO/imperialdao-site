@@ -38,7 +38,7 @@
 .mobileNavBar{
   display:none;
   
-  background-color:#212529;
+  background-color: rgb(24, 22, 50);
   @include xs{
     display:block;
     width:100%;
@@ -194,11 +194,15 @@
   color: rgb(255, 255, 255);
 }
 .image1 {
-  width: 50%;
+  width: 70%;
   transform: translateY(-50px);
+
+  @include md{
+    width: 80%;
+  }
   
   @include xs{
-    width: 80%;
+    width: 100%;
     margin-top:10%;
     z-index:0;
   } 
@@ -291,6 +295,10 @@
 
   @include xs{
     font-size:11px;
+  }
+
+  @include tn{
+    font-size: 9px;
   }
 
   
