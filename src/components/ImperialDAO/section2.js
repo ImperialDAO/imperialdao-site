@@ -101,12 +101,12 @@ function RenderSection2(props) {
           </p>
         </div>
         <div className={section2Styles.rightColumn}>
-          <div className={section2Styles.imgcontainer}>
+          
         <img className={section2Styles.IBGPhoto} src={slideshowImages[currentImage]} alt="Blockchain Event" />
 
         <button className={section2Styles.arrowLeft} onClick={goToPrevImage}>‹</button>
         <button className={section2Styles.arrowRight} onClick={goToNextImage}>›</button>
-        </div>
+        
         </div>
       </div>
       

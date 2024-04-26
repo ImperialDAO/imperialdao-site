@@ -188,7 +188,7 @@
 }
 
 .imgcontainer{
-  height: 220px;
+  
   @include sm{
     height: 100%;
     width:100%;
@@ -226,12 +226,21 @@
 
 
 .IBGPhoto {
-  height: 100%;
+  height: 400px;
+  width: auto;
   
   transition: transform 1s ease-in-out;
 
-  @include md{
-    height: 100%;
+  @include xxl{
+    height: 330px;
+  }
+  @include xl{
+    height: 280px;
+    width: auto;
+  }
+
+  @include lg{
+    height: 250px;
   }
 
   @include sm {
