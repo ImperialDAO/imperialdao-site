@@ -192,3 +192,11 @@
   background-color: rgb(0, 0, 0);
   border-radius: 29px 29px 29px 29px;
 }
+
+.bottomBorder{
+  width: auto;
+  @include sm{
+    height: 20px;
+  }
+
+}

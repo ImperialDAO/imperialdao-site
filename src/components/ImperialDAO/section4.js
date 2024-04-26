@@ -8,7 +8,7 @@ function renderSection4(props) {
     <section id="partners" className={section4Styles.section4}>
       
       <div className={section4Styles.section41}>
-      <img src={'/assets/id-border-horizontal.png'}/>
+      <img className={section4Styles.bottomBorder} src={'/assets/id-border-horizontal.png'}/>
         <div className={section4Styles.flex_col}>
           <h1 className={section4Styles.hero_title}>Partners</h1>
 
@@ -66,7 +66,7 @@ function renderSection4(props) {
             </div>
           </div>
         </div>
-        <img src={'/assets/id-border-horizontal-bottom.png'}/>
+        <img className={section4Styles.bottomBorder} src={'/assets/id-border-horizontal-bottom.png'}/>
       </div>
       
     </section>

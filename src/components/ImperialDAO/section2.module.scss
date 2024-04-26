@@ -1,6 +1,8 @@
 @use "../utils" as *;
 @use "../global" as *;
 
+
+
 .section2 {
   display: flex;
   flex-direction: column;
@@ -13,14 +15,16 @@
   width: 86.07%;
   background-color: rgba(173, 149, 102, 0.109);
 }
+
 .flex_col {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px 0px;
-  margin: 54px auto 58px;
+  gap: 55px 0px;
+  margin: 20px auto 80px;
   width: 94.51%;
 }
+
 .flex_col1 {
   display: flex;
   flex-direction: column;
@@ -40,7 +44,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 35px 0px;
+  gap: 30px 0px;
   width: 100%;
 }
 .big_title {
@@ -54,7 +58,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 0px 10px;
+  gap: 0px 0px;
   width: 100%;
   @include lg {
     flex-direction: column;
@@ -79,8 +83,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 45px 0px;
-  margin: 31px 36px 143px 32px;
+  width: 100%;
+  gap: 30px 0px;
+  margin: 31px 36px 30px 32px;
 }
 .big_title1 {
   display: flex;
@@ -94,11 +99,14 @@
   justify-content: center;
   font: 400 22px/1.27 "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
-  text-align: center;
+  text-align: left;
 }
 
 .bottomBorder{
-  width: 100%;
+  width: auto;
+  @include sm{
+    height: 20px;
+  }
 
 }
 
@@ -108,6 +116,11 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 50px;
+  @include sm{
+    flex-direction: column;
+    align-items:left;
+    justify-content: left;
+  }
 }
 
 .leftColumn {
@@ -115,6 +128,11 @@
   padding: 40px;
   box-sizing: border-box;
   margin-left:10%;
+
+  @include sm{
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 .rightColumn {
@@ -123,6 +141,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @include sm{
+    width: 100%
+  }
 }
 
 .arrowLeft, .arrowRight {
@@ -134,20 +155,84 @@
   color: white;
   font-size: 120px;
   cursor: pointer;
+  @include sm{
+    font-size:90px;
+  }
 }
 
 .arrowLeft {
   left: 100px;
   top:90px;
+  @include sm{
+    left: 20px;
+  }
 }
 
 .arrowRight {
   top:90px;
   right: 100px;
+  @include sm{
+    right: 20px;
+  }
 }
 
 .IBGPhoto{
   width: 80%;
+  @include sm{
+    width: 100%;
+  }
 }
 
+
+.content_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 95%;
+  background-color: rgb(14, 17, 42);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding: 10px;
+
+  &:hover {
+    background-color: lighten(rgb(14, 17, 42), 10%);
+  }
+
+  @include sm {
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+.expandButton {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: rotate(180deg);
+  }
+}
+
+.subtitle1 {
+  display: block;
+  font-size: 16px;
+  color: white;
+  font-size:28px;
+  padding: 20px;
+
+  @include sm {
+    display: block;
+    padding: 20px;
+    font-size:24px;
+  }
+}
 

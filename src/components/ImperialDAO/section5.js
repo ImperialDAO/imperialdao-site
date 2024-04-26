@@ -12,14 +12,10 @@ function renderSection5(props) {
           <h3 className={section5Styles.subtitle}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio
             feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a
-            nisi. In at mi dictum, aliquam nisl non, vehicula ligula. Curabitur nec suscipit urna. Ut consequat urna
-            lectus. Nullam velit nisl, lacinia posuere nulla venenatis, pharetra vulputate velit. Curabitur urna metus,
-            sollicitudin sed sapien non, iaculis eleifend tellus. Sed ornare libero ut maximus commodo.
+            
             <br />
             Sed volutpat quam sapien, sit amet lacinia felis molestie hendrerit. Sed ut eleifend libero. Aenean
-            tincidunt, orci sit amet convallis porttitor, neque odio vehicula est, bibendum tristique ipsum nisi vel
-            lacus. Suspendisse ultrices bibendum enim vel fermentum. Suspendisse eu aliquam tellus, at blandit urna.
-            Etiam condimentum viverra neque ut rutrum. Cras efficitur sagittis convallis. Ut cursus blandit nisi, ac
+            tincidunt
             interdum{' '}
           </h3>
         </div>
@@ -28,15 +24,10 @@ function renderSection5(props) {
           <h1 className={section5Styles.hero_title1}>Get in touch</h1>
           <h3 className={section5Styles.subtitle}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio
-            feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a
-            nisi. In at mi dictum, aliquam nisl non, vehicula ligula. Curabitur nec suscipit urna. Ut consequat urna
-            lectus. Nullam velit nisl, lacinia posuere nulla venenatis, pharetra vulputate velit. Curabitur urna metus,
-            sollicitudin sed sapien non, iaculis eleifend tellus. Sed ornare libero ut maximus commodo.
+            feugiat vel. Aliquam vitae consequat elit.
             <br />
             Sed volutpat quam sapien, sit amet lacinia felis molestie hendrerit. Sed ut eleifend libero. Aenean
-            tincidunt, orci sit amet convallis porttitor, neque odio vehicula est, bibendum tristique ipsum nisi vel
-            lacus. Suspendisse ultrices bibendum enim vel fermentum. Suspendisse eu aliquam tellus, at blandit urna.
-            Etiam condimentum viverra neque ut rutrum. Cras efficitur sagittis convallis. Ut cursus blandit nisi, ac
+            tincidunt
             interdum{' '}
           </h3>
         </div>
