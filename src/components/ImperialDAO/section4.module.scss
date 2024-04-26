@@ -10,7 +10,7 @@
   flex-direction: column;
   margin: 31px auto 28px;
   width: 86.01%;
-  min-height: 1171px;
+  
   background-color: rgba(173, 149, 102, 0.109);
 }
 .flex_col {
@@ -131,7 +131,7 @@
 }
 .image {
   margin: 23px 0px 0px;
-  width: 220px;
+  width: 130px;
   min-width: 0px;
   @include sm {
     margin-top: unset;

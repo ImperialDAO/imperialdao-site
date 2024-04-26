@@ -72,7 +72,7 @@ function RenderSection2(props) {
             <h1 className={section2Styles.big_title}>What we do</h1>
             <div className={section2Styles.flex_row}>
               {verticals.map((vertical, index) => (
-                <div className={section2Styles.content_box} key={index}>
+                <div className={section2Styles.content_box} onClick={() => toggleVertical(index)} key={index}>
                   <div onClick={() => toggleVertical(index)} className={section2Styles.flex_col3}>
                     <h1 className={section2Styles.big_title1}>{vertical.title}</h1>
                     <button className={section2Styles.expandButton}>{expandedVertical === index ? '▲' : '▼'}</button>
@@ -87,7 +87,7 @@ function RenderSection2(props) {
         </div>
 
         
-<h1 className={section2Styles.big_title}>Imperial College Blockchain Society</h1>
+<h1 id={section2Styles.IBGTitle} className={section2Styles.big_title} >Imperial College Blockchain Society</h1>
       <div className={section2Styles.blockchainSociety}>
       
         <div className={section2Styles.leftColumn}>
