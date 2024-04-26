@@ -26,6 +26,7 @@ function RenderSection1(props) {
 
   return (
     <section className={section1Styles.section1}>
+      <img className={section1Styles.bottomBorder} src={'/assets/id-border-horizontal.png'} alt="Decorative Border"/>
       <div className={section1Styles.flex_col}>
         <div className={section1Styles.wrapper}>
           <div className={section1Styles.menuIcon} onClick={toggleMenu}>

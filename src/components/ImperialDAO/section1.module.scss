@@ -9,8 +9,13 @@
   min-height: 790px;
 
   @include sm{
-    height: 98vh;
+    height: 94vh;
   }
+}
+
+.bottomBorder{
+  height:30px;
+  margin-bottom:10px;
 }
 
 .menuIcon {
@@ -18,9 +23,11 @@
   cursor: pointer;
   font-size: 30px;
   color: white;
+  
 
-  @include sm {  // Assuming 'sm' is your mobile breakpoint
+  @include sm { 
     display: block;
+    float:right;
   }
 }
 
@@ -189,6 +196,7 @@
 
   @include sm{
     margin-left:0;
+    font-size: 14px;
   }
 }
 
