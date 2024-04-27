@@ -23,6 +23,12 @@
   gap: 30px 10px;
   margin: 70px auto 80px;
   width: 94.51%;
+
+  @include xxs{
+    width: 100%;
+  }
+
+
 }
 
 .flex_col1 {
@@ -31,6 +37,10 @@
   align-items: center;
   gap: 30px 10px;
   width: 80%;
+
+  @include xxs{
+    width: 90%;
+  }
 }
 .hero_title {
   font: 600 22px/1.3 "Baskervville", Helvetica, Arial, serif;
@@ -39,6 +49,12 @@
 .subtitle {
   font: 400 20px/1.27 "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
+
+  @include xxs{
+    font-size: 15px;
+    text-align: center;
+    
+  }
 }
 .flex_col2 {
   display: flex;
@@ -60,6 +76,10 @@
 
 #IBGTitle{
   margin-top:10px;
+
+  @include xxs{
+    font-size: 22px;
+  }
 }
 
 .flex_row {
@@ -328,6 +348,11 @@
   @include xs{
     padding: 10px;
   }
+
+  @include xxs{
+    font-size: 20px;
+  }
+
 }
 
 

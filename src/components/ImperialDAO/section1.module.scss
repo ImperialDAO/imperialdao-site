@@ -11,6 +11,11 @@
   @include sm{
     height: 94vh;
   }
+
+  @include xxs {
+    height: 92vh;
+    min-height: 730px;
+  }
 }
 
 .bottomBorder{
@@ -210,7 +215,7 @@
 
   @include xxs {
     margin-top:20%;
-    width:100%;
+    width:130%;
   }
 
  
@@ -297,6 +302,10 @@
 
   @include xs{
     font-size:10px;
+  }
+
+  @include xxs{
+    font-size: 13px;
   }
 
   @include tn{
