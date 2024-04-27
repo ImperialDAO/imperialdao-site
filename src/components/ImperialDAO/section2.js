@@ -81,17 +81,15 @@ function RenderSection2(props) {
             <h3 className={section2Styles.subtitle}>
              ImperialDAO pioneers as the first university DAO in the United Kingdom and the official DAO of Imperial College London, ranked the 6th best university in the world.
              <br></br><br></br>
-             Our activities consist of several verticals, and we serve as the governing body of the thriving Blockchain Society at Imperial College London which currently unites over 600 members,
-             including prominent alumni and top field experts connect across finance, STEM, and entrepreneurship.
+             Our activities consist of several verticals, and we serve as the governing body of the thriving Blockchain Society at Imperial College London which currently unites over 600 members.
              <br></br><br></br>
              Our bi-weekly events connect our ambitious pool of students, researchers, and professionals—from venture capitalists 
              and quantitative researchers to entrepreneurs, talented engineers, STEM undergraduates, market analysts, entrepreneurs, and post-doctoral researchers.
             <br></br><br></br>
              We regularly invite companies to connect with our thriving community, whether to raise funding, attract developers, share career opportunities, spread knowledge, or incite educational discussion.
-             This thriving community is not only at the forefront of blockchain technology but also serves as a vital launchpad for startups and a strategic hub for investors dedicated to shaping the future of industry.
              
              <br></br><br></br>
-            We value radical generosity, intellectual rigot, critical thinking, delusional ambition, collaborative knowledge-sharing, and honesty.
+            We value radical generosity, intellectual rigor, critical thinking, delusional ambition, collaboration and honesty.
             </h3>
           </div>
           <div className={section2Styles.flex_col2}>
@@ -125,7 +123,7 @@ function RenderSection2(props) {
           </p><br></br>
 
           <p className={section2Styles.subtitle}>
-          Projects seeking to connect and/or present to the Imperial Blockchain Society can reach out and get in touch at <u>theimperialdao@gmail.com</u> or at <u>imperialblockchainsociety@imperial.ac.uk</u>.
+          Projects seeking to connect and/or present to the Imperial Blockchain Society can get in touch at <a href="theimperialdao@gmail.com">theimperialdao@gmail.com</a> or at <a href="imperialblockchainsociety@imperial.ac.uk"></a>imperialblockchainsociety@imperial.ac.uk.
           </p>
         </div>
         <div className={section2Styles.rightColumn}>
