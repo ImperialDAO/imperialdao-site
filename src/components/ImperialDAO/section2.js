@@ -38,19 +38,34 @@ function RenderSection2(props) {
   const verticals = [
     {
       title: "Angel Syndicate",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a nisi. In at mi dictum, aliquam nisl non, vehicula ligula."
+      content: (
+      <>
+      We collaboratively leverage our capital, intellectual rigor, and collective academic and industry expertise to strategically invest in promising ventures with robust growth prospects.<br></br><br></br>
+      Each investment is more than financial; it's an endorsement by the esteemed alumni and faculty of Imperial College London. Beyond capital, we equip invested companies with the vast expertise, network, and advisory capabilities our collective provides.</>
+      )
     },
     {
       title: "Developer House",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a nisi. In at mi dictum, aliquam nisl non, vehicula ligula."
+      content: 
+      <>
+      Imperial College London is home to countless exceptionally talented engineers and developers who are always seeking innovative projects to engage with.
+      <br></br><br></br>
+      We invite companies seeking to attract new talented student builders into their ecosystem to get in touch. Hackathon invitations, project sponsorships, graduate/internship opportunities and project ideas are welcomed.
+      </>
     },
     {
       title: "Start-Up Launchpad",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a nisi. In at mi dictum, aliquam nisl non, vehicula ligula."
+      content: <>
+      ImperialDAO members propose their innovative ideas/existing projects for the DAO to adjudicate whether to allocate a proportion of the DAO's collective funds and resources to them. <br></br><br></br>ImperialDAO also serves as a crucible for start-up team formation, and connecting members with the right entities to get them off of the ground.
+      </>
     },
     {
-      title: "Alpha, Knowledge, Networking",
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a nisi. In at mi dictum, aliquam nisl non, vehicula ligula."
+      title: "Alpha, Events, Networking",
+      content: <>
+      This vertical is the keystone of our DAO. We seek to converge the intellectually rigorous minds of Imperial College with the practical demands 
+      of the rapidly evolving blockchain ecosystem. We share our market and investment insights all the way from macroeconomic analysis to memecoin trading, host networking events, workshops and conferences,
+      and collaborative projects that connect our members with career opportunities, industry vanguards, co-founders and academics.
+      </>
     }
   ];
 
@@ -62,10 +77,19 @@ function RenderSection2(props) {
           <div className={section2Styles.flex_col1}>
             <h1 className={section2Styles.hero_title}>About Us</h1>
             <h3 className={section2Styles.subtitle}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio
-              feugiat vel. Aliquam vitae consequat elit. 
-              <br />
-              Sed volutpat quam sapien, sit amet lacinia felis molestie hendrerit. Sed ut eleifend libero.
+             ImperialDAO pioneers as the first university DAO in the United Kingdom and the official DAO of Imperial College London, ranked the 6th best university in the world.
+             <br></br><br></br>
+             Our activities consist of several verticals, and we serve as the governing body of the thriving Blockchain Society at Imperial College London which currently unites over 600 members,
+             including prominent alumni and top field experts connect across finance, STEM, and entrepreneurship.
+             <br></br><br></br>
+             Our bi-weekly events connect our ambitious pool of students, researchers, and professionals—from venture capitalists 
+             and quantitative researchers to entrepreneurs, talented engineers, STEM undergraduates, market analysts, entrepreneurs, and post-doctoral researchers.
+            <br></br><br></br>
+             We regularly invite companies to connect with our thriving community, whether to raise funding, attract developers, share career opportunities, spread knowledge, or incite educational discussion.
+             This thriving community is not only at the forefront of blockchain technology but also serves as a vital launchpad for startups and a strategic hub for investors dedicated to shaping the future of industry.
+             
+             <br></br><br></br>
+            We value radical generosity, intellectual rigot, critical thinking, delusional ambition, collaborative knowledge-sharing, and honesty.
             </h3>
           </div>
           <div className={section2Styles.flex_col2}>
@@ -93,11 +117,13 @@ function RenderSection2(props) {
         <div className={section2Styles.leftColumn}>
         
           <p className={section2Styles.subtitle}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio feugiat vel. Aliquam vitae consequat elit ligula.
+          ImperialDAO serves as a key governing body of the Blockchain Society at Imperial College London, currently <b>600 members strong</b>. Our mission is to educate students and connect them with opportunities in the Blockchain Ecosystem. <br></br><br></br>We hold <b>bi-weekly events</b> hosted on our campus for
+          members to learn and engage with the thriving Blockchain Ecosystem at the university. Our recent Global Blockchain and FinTech conference featured almost 700 attendees and a vast array of
+          vastly knowledgeable and repected speakers and industry representatives.
           </p><br></br>
 
           <p className={section2Styles.subtitle}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio feugiat vel.
+          Projects seeking to connect and/or present to the Imperial Blockchain Society can reach out and get in touch at <u>theimperialdao@gmail.com</u> or at <u>imperialblockchainsociety@imperial.ac.uk</u>.
           </p>
         </div>
         <div className={section2Styles.rightColumn}>
