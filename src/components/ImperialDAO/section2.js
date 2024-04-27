@@ -63,7 +63,9 @@ function RenderSection2(props) {
       title: "Alpha, Events, Networking",
       content: <>
       This vertical is the keystone of our DAO. We seek to converge the intellectually rigorous minds of Imperial College with the practical demands 
-      of the rapidly evolving blockchain ecosystem. We share our market and investment insights all the way from macroeconomic analysis to memecoin trading, host networking events, workshops and conferences,
+      of the rapidly evolving blockchain ecosystem. 
+      
+      <br></br><br></br>We share our market and investment insights all the way from macroeconomic analysis to memecoin trading, host networking events, workshops and conferences,
       and collaborative projects that connect our members with career opportunities, industry vanguards, co-founders and academics.
       </>
     }
