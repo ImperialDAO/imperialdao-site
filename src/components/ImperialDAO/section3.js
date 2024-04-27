@@ -207,21 +207,16 @@ function renderSection3(props) {
         <div className={section3Styles.item}>
             <div className={section3Styles.rect3} />
             <h3 className={section3Styles.subtitle1}>Mohamad Ghassan Alhalabi</h3>
-            <div className={section3Styles.text}>Title</div>
-          </div>
-        </div>
-
-        <div className={section3Styles.item}>
-            <div className={section3Styles.rect3} />
-            <h3 className={section3Styles.subtitle1}>Quham Adefila</h3>
-            <div className={section3Styles.text}>Title</div>
-          </div>
-        </div>
+              <div className={section3Styles.text}>Title</div>
+            </div>
+        
 
         <div className={section3Styles.item}>
         <div className={section3Styles.rect3} />
         <h3 className={section3Styles.subtitle1}>Nicholas Gerard</h3>
         <div className={section3Styles.text}>Title</div>
+        </div>
+        </div>
         </div>
         
 

@@ -46,7 +46,7 @@
   }
 }
 .subtitle {
-  display: flex;
+  display: block;
   justify-content: center;
   font: 400 22px/1.27 "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
@@ -142,8 +142,8 @@
 }
 .highlight1 {
   display: flex;
-  justify-content: center;
-  margin: 35px 0px 0px;
+  justify-content: left;
+  margin: 35px 25% 0px;
   font: 400 17px/1.29 "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
   text-align: center;

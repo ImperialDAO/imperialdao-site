@@ -10,25 +10,21 @@ function renderSection5(props) {
         <div className={section5Styles.flex_col1}>
           <h1 className={section5Styles.hero_title}>Apply to join</h1>
           <h3 className={section5Styles.subtitle}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio
-            feugiat vel. Aliquam vitae consequat elit. Suspendisse nisi justo, accumsan nec auctor aliquam, dapibus a
+            Membership to ImperialDAO is currently exclusive to staff, alumni and students of Imperial College London.
+            Applications are reviewed regularly and selection is based on the existing members being able to reach a majority consensus on your admission.
+            As a member of a decentralised organisation, you will be able to participate in all governance decisions, make/vote on proposals, and make a real contribution to the direction of the organisation.
+            <br></br><br></br>
+            Those interested in joining the DAO can <a href="https://forms.gle/3PB7H41CUHBkZpGW8"><b>apply here.</b></a>
             
-            <br />
-            Sed volutpat quam sapien, sit amet lacinia felis molestie hendrerit. Sed ut eleifend libero. Aenean
-            tincidunt
-            interdum{' '}
+            <br></br><br></br>
+            
           </h3>
         </div>
 
         <div id="contact" className={section5Styles.flex_col2}>
           <h1 className={section5Styles.hero_title1}>Get in touch</h1>
           <h3 className={section5Styles.subtitle}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur feugiat nunc, in bibendum odio
-            feugiat vel. Aliquam vitae consequat elit.
-            <br />
-            Sed volutpat quam sapien, sit amet lacinia felis molestie hendrerit. Sed ut eleifend libero. Aenean
-            tincidunt
-            interdum{' '}
+          For inquiries and partnerships, please email <u>theimperialdao@gmail.com</u> or send a message to <u>@theimperialdao</u> on X/Twitter
           </h3>
         </div>
       </div>
@@ -41,14 +37,16 @@ function renderSection5(props) {
           <div className={section5Styles.flex_col3}>
             <img className={section5Styles.image3} src={'/assets/social_media_icon_set.png'} alt="alt text" />
             <h5 className={section5Styles.highlight1}>
-              Footer Text  porttitor, neque odio vehicula est, bibendum tristique ipsum nisi vel lacus. Suspendisse
-              ultrices bibendum enim vel fermentum. Suspendisse eu aliquam tellus, at blandit urna. Etiam condimentum
-              viverra neque ut rutrum. Cras efficitur sagittis convallis. Ut cursus blandit nisi, ac interdum{' '}
+           
+              <br></br>
+              ImperialDAO
+              <br></br>AGITE UT UNUM FLOREATE UT MULTI<br></br>Act as one, prosper as many
             </h5>
             <img className={section5Styles.image4} src={'/assets/navy_blue_id_seal.png'} alt="alt text" />
           </div>
         </div>
-        <img src={'/assets/id-border-horizontal-bottom.png'}/>
+        <img src={'/assets/id-border-horizontal-bottom.png'}/><br></br>
+        
       </div>
       
     </section>
