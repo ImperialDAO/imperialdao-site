@@ -119,11 +119,11 @@ function RenderSection2(props) {
           <p className={section2Styles.subtitle}>
           ImperialDAO serves as a key governing body of the Blockchain Society at Imperial College London, currently <b>600 members strong</b>. Our mission is to educate students and connect them with opportunities in the Blockchain Ecosystem. <br></br><br></br>We hold <b>bi-weekly events</b> hosted on our campus for
           members to learn and engage with the thriving Blockchain Ecosystem at the university. Our recent Global Blockchain and FinTech conference featured almost 700 attendees and a vast array of
-          vastly knowledgeable and repected speakers and industry representatives.
+          knowledgeable speakers and industry experts.
           </p><br></br>
 
           <p className={section2Styles.subtitle}>
-          Projects seeking to connect and/or present to the Imperial Blockchain Society can get in touch at <a href="theimperialdao@gmail.com">theimperialdao@gmail.com</a> or at <a href="imperialblockchainsociety@imperial.ac.uk"></a>imperialblockchainsociety@imperial.ac.uk.
+          Projects seeking to connect and/or present to the Imperial Blockchain Society can get in touch at <a href="mailto:theimperialdao@gmail.com">theimperialdao@gmail.com</a> or at <a href="mailto:imperialblockchainsociety@imperial.ac.uk"></a>imperialblockchainsociety@imperial.ac.uk.
           </p>
         </div>
         <div className={section2Styles.rightColumn}>
