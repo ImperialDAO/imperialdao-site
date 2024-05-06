@@ -63,7 +63,8 @@
 .rect3 {
   width: 6vw;
   height: 6vw;
-  background-color: rgb(217, 217, 217);
+  display: flex;
+  background-color: rgb(14, 17, 42);
 
   @include sm{
     width: 14vw;
@@ -93,13 +94,33 @@
   display: flex;
   justify-content: center;
   margin: 3px 0px 0px;
-  font: 400 13px/1.28 "Baskervville", Helvetica, Arial, serif;
+  font: 400 14px/1.28 "Baskervville", Helvetica, Arial, serif;
   color: #e2c000;
   text-align: center;
 
   @include xxs{
     font-size: 11px;
   }
+}
+
+.memberImg{
+  width: 100%;
+}
+
+#img120{
+  width: 120%;
+}
+
+#img80{
+  width: 75%;
+  margin-right: auto;
+  margin-left:auto;
+  float:left;
+  
+}
+
+#smallertext{
+  font-size: 12px;
 }
 
 
