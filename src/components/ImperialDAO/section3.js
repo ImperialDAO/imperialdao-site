@@ -123,7 +123,7 @@ function renderSection3(props) {
             <img className ={section3Styles.memberImg} src="/assets/members/Jacob.jpeg"/>
             </div>
             <h3 className={section3Styles.subtitle1}>Jacob Walker</h3>
-            <div className={section3Styles.text}>VC Scout, Imperial BioTech M.Sc.</div>
+            <div className={section3Styles.text}>VC Scout, Imperial BioEngineer</div>
           </div>
 
           <div className={section3Styles.item}>
