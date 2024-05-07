@@ -58,8 +58,8 @@ function renderSection3(props) {
             <div className={section3Styles.rect3}>
             <img className ={section3Styles.memberImg} src="/assets/members/Michael.jpeg"/>
             </div>
-            <h3 className={section3Styles.subtitle1}>Dr. Michael Suarez, Ph.D.</h3>
-            <div className={section3Styles.text}>Senior Quant</div>
+            <h3 className={section3Styles.subtitle1}>Dr. Michael Suarez</h3>
+            <div className={section3Styles.text}>Quantitative Researcher</div>
           </div>
 
           <div className={section3Styles.item}>
