@@ -123,7 +123,7 @@ function RenderSection2(props) {
           </p><br></br>
 
           <p className={section2Styles.subtitle}>
-          Projects seeking to connect and/or present to the Imperial Blockchain Society can get in touch at <a href="mailto:theimperialdao@gmail.com">theimperialdao@gmail.com</a> or at <a href="mailto:imperialblockchainsociety@imperial.ac.uk">imperialblockchainsociety@imperial.ac.uk.</a>
+          Projects seeking to connect and/or present to the Imperial Blockchain Society can get in touch at <a href="mailto:team@imperialdao.org">team@imperialdao.org</a> or at <a href="mailto:imperialblockchainsociety@imperial.ac.uk">imperialblockchainsociety@imperial.ac.uk.</a>
           </p>
         </div>
         <div className={section2Styles.rightColumn}>

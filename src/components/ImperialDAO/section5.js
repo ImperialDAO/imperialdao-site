@@ -24,7 +24,7 @@ function renderSection5(props) {
         <div id="contact" className={section5Styles.flex_col2}>
           <h1 className={section5Styles.hero_title1}>Get in touch</h1>
           <h3 className={section5Styles.subtitle}>
-          For inquiries and partnerships, please email <a href="theimperialdao@gmail.com">theimperialdao@gmail.com</a> or send a message to <u>@theimperialdao</u> on X/Twitter
+          For inquiries and partnerships, please email <a href="team@imperialdao.org">team@imperialdao.org</a> or send a message to <u>@theimperialdao</u> on X/Twitter
           </h3>
         </div>
       </div>
