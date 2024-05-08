@@ -28,9 +28,9 @@ function renderSection4(props) {
               <img className={section4Styles.image} src={'/assets/partners/Q42_logo.jpg'} alt="alt text" />
 
               <div className={section4Styles.flex_col3}>
-                <h1 className={section4Styles.hero_title1}>Q42 Ventures</h1>
+                <h1 className={section4Styles.hero_title1}>Q42</h1>
                 <h3 className={section4Styles.subtitle}>
-                Q42 is a new category of exchange in the making. Building a community first ecosystem of active finance products for Web3.{' '}
+                Q42 is a community-first ecosystem of active finance products for Web3.{' '}
                 </h3>
               </div>
             </div>
