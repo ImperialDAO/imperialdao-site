@@ -45,7 +45,7 @@ function RenderSection2(props) {
       )
     },
     {
-      title: "Developer House",
+      title: "Developer Hub",
       content: 
       <>
       Imperial College London is home to countless exceptionally talented engineers and developers who are always seeking innovative projects to engage with.
@@ -54,9 +54,9 @@ function RenderSection2(props) {
       </>
     },
     {
-      title: "Start-Up Launchpad",
+      title: "Research",
       content: <>
-      ImperialDAO members propose their innovative ideas/existing projects for the DAO to adjudicate whether to allocate a proportion of the DAO's collective funds and resources to them. <br></br><br></br>ImperialDAO also serves as a crucible for start-up team formation, and connecting members with the right entities to get them off of the ground.
+      ImperialDAO members propose their innovative and impactful projects for our research teams to pursue. These can be in collaboration with other ecosystems and research teams, as well as internally run. Projects also have the potential of receiving grants/funding from the DAO's treausury. <br></br><br></br>.
       </>
     },
     {
