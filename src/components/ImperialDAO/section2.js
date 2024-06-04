@@ -79,7 +79,7 @@ function RenderSection2(props) {
           <div className={section2Styles.flex_col1}>
             <h1 className={section2Styles.hero_title}>About Us</h1>
             <h3 className={section2Styles.subtitle}>
-             ImperialDAO pioneers as the first university DAO in the United Kingdom and the official DAO of Imperial College London, ranked the 6th best university in the world.
+             ImperialDAO pioneers as the first university DAO in the United Kingdom and the official DAO of Imperial College London, ranked the 2nd best university in the world.
              <br></br><br></br>
              Our activities consist of several verticals, and we serve as the governing body of the thriving Blockchain Society at Imperial College London which currently unites over 600 members.
              <br></br><br></br>
