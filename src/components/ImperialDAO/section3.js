@@ -109,6 +109,14 @@ function renderSection3(props) {
 
           <div className={section3Styles.item}>
             <div className={section3Styles.rect3}>
+            <img className ={section3Styles.memberImg} src="/assets/members/Victora.jpg"/>
+            </div>
+            <h3 className={section3Styles.subtitle1}>Victoria Gong</h3>
+            <div className={section3Styles.text}>Portfolio Manager</div>
+          </div>
+
+          <div className={section3Styles.item}>
+            <div className={section3Styles.rect3}>
             <img className ={section3Styles.memberImg} src="/assets/members/Julien.jpg"/>
             </div>
             <h3 className={section3Styles.subtitle1}>Julien Pelegri</h3>
