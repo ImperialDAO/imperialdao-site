@@ -7,13 +7,11 @@
   display: flex;
   flex-direction: column;
 }
+/* Align the section with "About Us" margins */
 .section21 {
-  display: flex;
-  flex-direction: column;
-  margin: 0px auto 49px;
-
-  width: 86.07%;
-  background-color: rgba(173, 149, 102, 0.109);
+  width: 90%; /* Matches the width of the "About Us" section */
+  margin: 0 auto; /* Center-align */
+  background-color: rgb(32, 32, 51);
 }
 
 .flex_col {
@@ -43,11 +41,11 @@
   }
 }
 .hero_title {
-  font: 600 22px/1.3 "Baskervville", Helvetica, Arial, serif;
+  font: 600 26px/1.3 "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
 }
 .subtitle {
-  font: 400 20px/1.27 "Baskervville", Helvetica, Arial, serif;
+  font: 400 22px/1.27 "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
 
   @include xxs{
@@ -59,11 +57,12 @@
 .flex_col2 {
   display: flex;
   flex-direction: column;
-  
-  align-items: center;
-  gap: 30px 40px;
+  gap: 30px;
   width: 100%;
+  margin: 0 auto; /* Centers the entire column */
+  padding: 0 5%; /* Adds padding to align with "About Us" text */
 }
+
 .big_title {
   display: flex;
   justify-content: center;
@@ -81,6 +80,32 @@
     font-size: 22px;
   }
 }
+/* Full-width content boxes */
+.fullWidthBox {
+  width:90%; /* Full width */
+  padding: 30px; /* Increase padding for spaciousness */
+  margin: 20px auto; /* Add space between boxes */
+  border-radius: 10px; /* Slightly rounded corners */
+  color: white; /* White text */
+  text-align: center; /* Center-align text within the boxes */
+  box-sizing: border-box; /* Ensure padding doesn’t affect overall width */
+  background-color: rgb(14, 17, 42);
+}
+
+.boxContent {
+  font: 400 20px/1.6 "Baskervville", Helvetica, Arial, serif; /* Readable font size */
+  color: white; /* Keep content text white */
+  line-height: 1.8; /* Improve readability with larger line height */
+  text-align: center; /* Center-align content */
+}
+/* Subtitle styling for each box */
+.boxTitle {
+  font: bold 28px "Baskervville", Helvetica, Arial, serif; /* Larger font for subtitles */
+  margin-bottom: 15px; /* Space between title and content */
+  color: white; /* Keep title text white */
+  text-align: center; /* Center-align the subtitle */
+}
+
 
 .flex_row {
   display: flex;
@@ -134,7 +159,7 @@
 
 
 .bottomBorder{
-  width: auto;
+  width: 100%;
   @include sm{
     height: 20px;
   }
@@ -331,10 +356,10 @@
 .subtitle1 {
   display: flex;
   justify-content: center;
-  font: 400 24px/1.27 "Baskervville", Helvetica, Arial, serif;
+  font: 30px "Baskervville", Helvetica, Arial, serif;
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 20px;
+  font-size: 28px;
   color: white;
   
   padding: 5px;

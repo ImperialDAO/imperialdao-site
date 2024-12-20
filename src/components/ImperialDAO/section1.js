@@ -42,12 +42,14 @@ function RenderSection1(props) {
             <h3 onClick={() => handleScroll('contact')} className={section1Styles.subtitle}>Contact</h3>
           </div>
         </div>
-
+{/*
         <div className={section1Styles.box} onClick={navigateToMint}>
           <img className={section1Styles.image2} src={"/assets/signet.png"} alt="Signet Mint" />
           <h4 className={section1Styles.highlight}>Signet Mint (Members Only)</h4>
         </div>
+*/}  
         <img className={section1Styles.image1} src={'/assets/imperial_dao_crest_motif.png'} alt="Imperial DAO Crest" />
+
       </div>
     </section>
   );
