@@ -97,6 +97,12 @@
   color: white; /* Keep content text white */
   line-height: 1.8; /* Improve readability with larger line height */
   text-align: center; /* Center-align content */
+  @include xs {
+    
+    font-size: 16px;
+    
+  }
+
 }
 /* Subtitle styling for each box */
 .boxTitle {
